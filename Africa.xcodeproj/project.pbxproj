@@ -44,6 +44,7 @@
 		716FE25E29F10BD0005FB2C7 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FE25D29F10BD0005FB2C7 /* VideoListItemView.swift */; };
 		716FE26029F110EE005FB2C7 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FE25F29F110EE005FB2C7 /* VideoPlayerView.swift */; };
 		716FE26329F1119E005FB2C7 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FE26229F1119E005FB2C7 /* VideoPlayerHelper.swift */; };
+		716FE26529F11D4C005FB2C7 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FE26429F11D4C005FB2C7 /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		716FE25D29F10BD0005FB2C7 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		716FE25F29F110EE005FB2C7 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		716FE26229F1119E005FB2C7 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		716FE26429F11D4C005FB2C7 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 				716FE24629F0EF1B005FB2C7 /* CoverImageModel.swift */,
 				716FE24D29F0F856005FB2C7 /* AnimalModel.swift */,
 				716FE25B29F10B7B005FB2C7 /* VideoModel.swift */,
+				716FE26429F11D4C005FB2C7 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				716FE23B29F0EB30005FB2C7 /* VideoListView.swift in Sources */,
 				716FE25C29F10B7B005FB2C7 /* VideoModel.swift in Sources */,
 				716FE23F29F0EB58005FB2C7 /* GalleryView.swift in Sources */,
+				716FE26529F11D4C005FB2C7 /* LocationModel.swift in Sources */,
 				716FE25429F0FDC7005FB2C7 /* InsetGalleryView.swift in Sources */,
 				716FE25E29F10BD0005FB2C7 /* VideoListItemView.swift in Sources */,
 				716FE24A29F0F007005FB2C7 /* CodableBundleExtension.swift in Sources */,
@@ -466,6 +470,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,6 +501,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
